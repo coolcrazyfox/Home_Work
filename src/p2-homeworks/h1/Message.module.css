@@ -1,0 +1,121 @@
+.reviews {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1px 1px;
+}
+
+.comment {
+    max-width: 440px;
+    flex-basis: 60%;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+
+.commentBubble {
+    padding: 15px;
+    max-width: 470px;
+}
+
+.commentBubble {
+    background: #f1e0b4;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 4px 4px 14px #9E9E9E;
+}
+
+.commentBubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 133px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-right: 27px solid #f1e0b4;
+    border-bottom: 15px solid transparent;
+}
+.commentText{
+    color: #4db94d;
+    font-size: 16px;
+    text-align: left;
+}
+
+.author {
+    color: #a8402e;
+    font-size: 15px;
+    text-align: start;
+}
+
+.time{
+    color: #a84a2e;
+    font-size: 20px;
+    text-align: end;
+}
+
+.avatar {
+    font-size: 18px;
+    width: 100px;
+    height: 17%;
+    border-radius: 12px;
+    margin: 3px;
+    padding: 0;
+    box-shadow: 4px 4px 14px #9E9E9E;
+}
+
+.imgAvatar {
+    width: 95px;
+    height: 17%;
+    border-radius: 12px;
+    margin: 3px;
+    padding: 0;
+    box-shadow: 4px 4px 14px #9E9E9E;
+
+}
+.nameText{
+    font-size: 15px;
+    color: #fdf299;
+    padding:  4px;
+}
+.nameText:hover{
+    color: #bafd99;
+    font-size: 12px;
+}
+
+.submitBtn {
+    color: #d1ee7e;
+    border-color: #ff9900;
+    background-color: #441e16;
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: -4px -4px 4px #9E9E9E;
+}
+.submitBtn:hover{
+    color: #5b2b2b;
+    background-color: #9de58a;
+    border-color: aqua;
+    box-shadow: 4px 4px 4px #9E9E9E;
+}
+
+.inputField {
+    max-width: 500px;
+    max-height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-block: 4px;
+    margin: 4px;
+    border-color: #ff9900;
+    background-color: #441e16;
+    border-radius: 12px;
+    color: white;
+    box-shadow: -4px -4px 4px #9E9E9E;
+}
+.inputField:hover{
+    color: #441e16;
+    background-color: #9de58a;
+    box-shadow: 4px 4px 4px #9E9E9E;
+    border-color: #441e16;
+}
