@@ -38,7 +38,8 @@
     border-right: 27px solid #f1e0b4;
     border-bottom: 15px solid transparent;
 }
-.commentText{
+
+.commentText {
     color: #4db94d;
     font-size: 16px;
     text-align: left;
@@ -50,7 +51,7 @@
     text-align: start;
 }
 
-.time{
+.time {
     color: #a84a2e;
     font-size: 20px;
     text-align: end;
@@ -75,12 +76,14 @@
     box-shadow: 4px 4px 14px #9E9E9E;
 
 }
-.nameText{
+
+.nameText {
     font-size: 15px;
     color: #fdf299;
-    padding:  4px;
+    padding: 4px;
 }
-.nameText:hover{
+
+.nameText:hover {
     color: #bafd99;
     font-size: 12px;
 }
@@ -93,7 +96,8 @@
     padding: 5px;
     box-shadow: -4px -4px 4px #9E9E9E;
 }
-.submitBtn:hover{
+
+.submitBtn:hover {
     color: #5b2b2b;
     background-color: #9de58a;
     border-color: aqua;
@@ -113,7 +117,8 @@
     color: white;
     box-shadow: -4px -4px 4px #9E9E9E;
 }
-.inputField:hover{
+
+.inputField:hover {
     color: #441e16;
     background-color: #9de58a;
     box-shadow: 4px 4px 4px #9E9E9E;
