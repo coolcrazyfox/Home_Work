@@ -26,4 +26,16 @@ test('find text "test message"', () => {
     const linkElement = getByText(/test message/i)
     expect(linkElement).toBeInTheDocument()
 })
+test('find text "test message time"', () => {
+    const {getByText} = render((
+        <Message
+            avatar=""
+            name=""
+            message=""
+            time="test message time"
+        />
+    ))
+    const linkElement = getByText(/test message time/i)
+    expect(linkElement).toBeInTheDocument()
+})
 
