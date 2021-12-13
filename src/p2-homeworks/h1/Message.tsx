@@ -3,7 +3,7 @@ import m from './Message.module.css'
 
 
 type messageData = {
-    id?: number,
+    id: number,
     avatar: string,
     name: string,
     message: string,
