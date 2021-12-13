@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.error {
+    height: 21px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #830707;
+    font: 25px Arial, sans-serif;
+    font-weight: 600;
+    text-shadow: #09264b 1px 4px 5px;
+
+    /*border: 1px solid red;*/
+}
+.notErrorInput{
+    color: #f1eaea;
+    background-color: #441e16;
+    margin: 10px;
+    border-color: #4db94d;
+    border-radius: 10px;
+    box-shadow: -4px -4px 4px #9E9E9E;
+    font-size: 15px;
+}
+.errorInput{
+    margin: 10px;
+    color: #1b307e;
+    background: #ded073;
+    border: 2px solid #e1093c;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #9E9E9E;
+    font-size: 15px;
+}
+.addBtn{
+    margin: 10px;
+    width: 60px;
+    background-color: #441e16;
+    color: #f1e0b4;
+    border-radius: 10px;
+    border-color: #4db94d;
+    box-shadow: 4px 4px 4px #9E9E9E;
+    font-size: 15px;
+}
+.addBtn:active{
+    background: #e16973;
+    color: #f5f4ed;
+    border-color: #00ffa6;
+}
+.addBtn:hover{
+    background: #ff9900;
+    color: #f5f4ed;
+    border-color: #ff004d;
+    box-shadow: -4px -4px 4px #8f6d6d;
+
+}
+
+.totalUsers{
+    color: #6e47a9;
+    font: 27px Arial, sans-serif;
+    font-weight: 600;
+    text-shadow: #3ae33d 0 4px 5px;
+    margin: 10px;
+}
