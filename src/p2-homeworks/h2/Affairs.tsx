@@ -3,12 +3,11 @@ import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 import a from  './Affairs.module.css'
 
-
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
-    setFilter: (filter: FilterType)=> void
+    setFilter: (filter: FilterType) => void
     // setFilter: Dispatch<SetStateAction<FilterType>>
-    deleteAffairCallback: (id: number)=> void
+    deleteAffairCallback: (id: number) => void
     filter: FilterType
 }
 
@@ -39,7 +38,7 @@ function Affairs(props: AffairsPropsType) {
 
             {mappedAffairs}
 
-            <button className={a.clnAll } onClick={setAll}>All</button>
+            <button className={a.clnAll} onClick={setAll}>All</button>
             <button className={a.clnHigh} onClick={setHigh}>High</button>
             <button className={a.clnMiddle} onClick={setMiddle}>Middle</button>
             <button className={a.clnLow} onClick={setLow}>Low</button>
