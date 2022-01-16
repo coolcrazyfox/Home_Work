@@ -1,10 +1,10 @@
 .link{
     text-decoration:none;
-    color: #1b307e;
+    color: #d5b933;
     margin: 10px;
 }
 .link:hover{
-    color: #d1ee7e;
+    color: #ee7e87;
 }
 .active{
     color: #5cde5c;
@@ -13,11 +13,14 @@
     width: 21px;
     height: 21px;
     margin: 10px;
-    background: #d1ee7e;
-}
+    background: rgb(125, 243, 215);
+    opacity: 0.5;
+    border-radius: 5px;
+    color: #830707;}
+
 .header{
     display: flex;
-    width: 280px;
+    width: 390px;
     transition-duration: 500ms;
     transform: translate(-220px);
 }
