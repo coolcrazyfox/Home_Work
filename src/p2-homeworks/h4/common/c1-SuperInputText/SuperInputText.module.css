@@ -1,0 +1,23 @@
+.superInput {
+    margin: 10px;
+    background: black;
+    color: #f1e0b4;
+}
+
+.errorInput {
+    margin: 12px;
+    border: 3px solid #ff6a00;
+    background: #a8402e;
+    color: rgba(235, 235, 235, 0.66);
+    border-radius: 10px;
+    box-shadow: -4px -4px 4px #8f6d6d;
+}
+
+.error {
+    color: #eceff5;
+    height: 21px;
+    margin-left: 5px;
+    text-shadow: 4px 4px 4px rgba(255, 0, 0, 0.94);
+    font: 20px Arial, sans-serif;
+
+}

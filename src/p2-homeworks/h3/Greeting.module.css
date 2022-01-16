@@ -15,6 +15,11 @@
 
     /*border: 1px solid red;*/
 }
+input:focus{
+    outline: none;
+    border: #458a82 solid 2px;
+    box-shadow: -4px -4px 4px #e8cc20;
+}
 .notErrorInput{
     color: #f1eaea;
     background-color: #441e16;
@@ -30,7 +35,7 @@
     background: #ded073;
     border: 2px solid #e1093c;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px #9E9E9E;
+    box-shadow: 4px 4px 4px #e15989;
     font-size: 15px;
 }
 .addBtn{
@@ -54,6 +59,11 @@
     border-color: #ff004d;
     box-shadow: -4px -4px 4px #8f6d6d;
 
+}
+.addBtn:disabled{
+    background: #ff004d;
+    color: #ff9900;
+    opacity: 0.5;
 }
 
 .totalUsers{
