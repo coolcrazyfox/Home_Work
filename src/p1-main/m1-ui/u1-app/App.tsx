@@ -15,14 +15,14 @@ function App() {
     return (
         <div className={s.App}>
             <div className={s.hwName} >homeworks: </div>
-            {/*<HW1/>*/}
-            {/*<HW2/>*/}
-            {/*<HW3/>*/}
-            {/*<HW4/>*/}
-            {/*<HW5/>*/}
-            {/*<HW7/>*/}
-            {/*<HW8/>*/}
-            {/*<HW9/>*/}
+            <HW1/>
+            <HW2/>
+            <HW3/>
+            <HW4/>
+            <HW5/>
+            <HW7/>
+            <HW8/>
+            <HW9/>
             <HW10/>
         </div>
     )
