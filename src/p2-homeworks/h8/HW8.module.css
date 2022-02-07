@@ -1,0 +1,16 @@
+.work{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin-left: 8px;
+    color: rgb(123, 187, 185);
+    font-family: "Times New Roman" ;
+    font-size: 22px;
+}
+.up, .age, .down{
+    width: 80px;
+    height: 27px;
+    color: greenyellow;
+    display: inline-block;
+    margin: 5px;
+}

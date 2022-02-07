@@ -16,7 +16,8 @@
     background: rgb(125, 243, 215);
     opacity: 0.5;
     border-radius: 5px;
-    color: #830707;}
+    color: #830707;
+}
 
 .header{
     display: flex;
