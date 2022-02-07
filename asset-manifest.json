@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coolcrazyfox/Home_Work.git/static/css/main.62aa0ec0.chunk.css",
-    "main.js": "/coolcrazyfox/Home_Work.git/static/js/main.216d53a5.chunk.js",
-    "main.js.map": "/coolcrazyfox/Home_Work.git/static/js/main.216d53a5.chunk.js.map",
+    "main.js": "/coolcrazyfox/Home_Work.git/static/js/main.878954ef.chunk.js",
+    "main.js.map": "/coolcrazyfox/Home_Work.git/static/js/main.878954ef.chunk.js.map",
     "runtime-main.js": "/coolcrazyfox/Home_Work.git/static/js/runtime-main.48ded1c7.js",
     "runtime-main.js.map": "/coolcrazyfox/Home_Work.git/static/js/runtime-main.48ded1c7.js.map",
     "static/js/2.2c008e12.chunk.js": "/coolcrazyfox/Home_Work.git/static/js/2.2c008e12.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.48ded1c7.js",
     "static/js/2.2c008e12.chunk.js",
     "static/css/main.62aa0ec0.chunk.css",
-    "static/js/main.216d53a5.chunk.js"
+    "static/js/main.878954ef.chunk.js"
   ]
 }
