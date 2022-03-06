@@ -1,6 +1,6 @@
 {
   "name": "my-hw",
-  "homepage": "https://github.com/coolcrazyfox/Home_Work.git",
+  "homepage": "https://coolcrazyfox.github.io/Home_Work/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,9 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.23",
     "@types/react-router-dom": "^5.3.2",
+    "@types/redux": "^3.6.0",
     "@types/uuid": "^8.3.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
